@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-    background: #e5bdbd;
+    background: #f0eded;
 }
 
 ul {
@@ -26,7 +26,7 @@ ul li {
 }
 
 ul li a {
-    color: rgb(231, 219, 226);
+    color: rgb(230, 67, 162);
     text-decoration: none;
     font-size: 5em;
     padding: 5px 20px;
@@ -72,28 +72,4 @@ ul li a:hover::before {
     letter-spacing: 10px;
     width: 1800px;
     height: 1800px;
-}
-
-ul li:nth-child(6n+1) a:before {
-    background: #0470fe;
-}
-
-ul li:nth-child(6n+2) a:before {
-    background: #ff7675;
-}
-
-ul li:nth-child(6n+3) a:before {
-    background: #26c87d;
-}
-
-ul li:nth-child(6n+4) a:before {
-    background: #a29bfe;
-}
-
-ul li:nth-child(6n+5) a:before {
-    background: #fd79a8;
-}
-
-ul li:nth-child(6n+6) a:before {
-    background: #ffeaa7;
 }
