@@ -4,60 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cricket Rules</title>
     <style>
         body {
-            background-color: rgb(64, 162, 90);
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-        #image1 {
-            width: 60%;
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 4px solid #40a25a;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        ol {
+            list-style: decimal;
+            padding-left: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        h2,
+        h3 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 10px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
         }
     </style>
-
-
-    <h1 style="font-size: 50px;">
-        Let me explain some of the basic rules of Cricket
-    </h1>
-    <ol>
-        There are 2 innings in the game, in the 1st inning one team bowls and the other teams bats. In the second
-        inning the team that bowled first trys to defend the total amount of runs they made while batting in the first
-        inning.
-        <hr />
-        Each team in cricket has 11 players, with some being batsmen, some being bowlers and 1 or 2 being allrounders,
-        who are decent at bowling and batting.
-        <hr />
-        In cricket, 1 pitcher bowls 6 deliveries which constitutes an over. After this the next bowler comes and bowls 1
-        over. No bowler can bowl consecutive overs so
-        there must be atleast a 1 over gap before a bowler can bowl again. In a 50 over game, a bowler can bowl a
-        maximum of 10 overs so
-        if the captain decided to use only 5 bowlers, each one would have to bowl 10 overs or 60 delivieries.
-        <hr />
-        In cricket, 2 batsmen bat at the same time. By hitting the ball into the playing field and then running down to
-        the other end of the wicket and back, a batter accumulates runs. The key
-        principle in cricket is that if you are out once, you wont bat again in the innings. If the bowling team manages
-        to get the other teams 10 batters out before 50 overs are done, then the team is all out and doesnt complete the
-        alloted 50 overs. In this case however many runs the team scored before getting all out is the score they must
-        defend when they bowl in the next innings.
-        <hr />
-        There are a couple of ways to get out in cricket. In cricket behind you there are 3 thin wooden sticks called
-        the stumps. If the bowler bowls and you miss and the ball hits the stumps, you are out. This is known as
-        "bowled". Another way to be out is if you hit the ball directly in the air without it bouncing, and it is caught
-        by any one of the fielders, you are out.
-        Also, if you miss the ball but the ball hits your leg, then you can appeal to the umpire for leg before wicket.
-        In this case, if the umpire adjudges that the ball would have hit the wicket had it not hit your leg, then you
-        are out.
-        This is known as lbw (leg before wicket).
-        <hr />
-    </ol>
-    <h2> Image Showcasing Basic Rules of Cricket</h2>
-    <img id="image1" src="images/cricket5.avif" alt="Image of Rules of Cricket">
-    <h3>Image Showcasing cricket ground plus positions where fielders are located for fielding</h3>
-    <img id="image1" src="images/cricket6.png" alt="Image Of cricket fielding positions">
 </head>
 
 <body>
+    <header>
+        <h1>Let Me Explain Some of the Basic Rules of Cricket</h1>
+    </header>
+    <main>
+        <section id="rules">
+            <h2>Cricket Rules</h2>
+            <ol>
+                <li>There are 2 innings in the game, in the 1st inning one team bowls and the other teams bats. In the
+                    second inning, the team that bowled first tries to defend the total amount of runs they made while
+                    batting in the first inning.</li>
+                <li>Each team in cricket has 11 players, with some being batsmen, some being bowlers, and 1 or 2 being
+                    allrounders, who are decent at bowling and batting.</li>
+                <li>In cricket, 1 bowler bowls 6 deliveries which constitute an over. After this, the next bowler comes
+                    and bowls 1 over. No bowler can bowl consecutive overs, so there must be at least a 1 over gap
+                    before a bowler can bowl again. In a 50-over game, a bowler can bowl a maximum of 10 overs.</li>
+               
+            </ol>
+        </section>
 
+        <section id="images">
+            <h3>Image Showcasing Basic Rules of Cricket</h3>
+            <img id="image1" src="images/cricket5.avif" alt="Image of Rules of Cricket">
+
+            <h3>Image Showcasing Cricket Ground Plus Positions Where Fielders Are Located for Fielding</h3>
+            <img id="image2" src="images/cricket6.png" alt="Image Of Cricket Fielding Positions">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Website Name</p>
+    </footer>
 </body>
 
 </html>
