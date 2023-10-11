@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>secondary content</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1;
+            grid-template-rows: 100px 1;
+            height: 100vh;
+        }
+
+        .navmenu {
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .navmenu a {
+            color: rgb(35, 215, 26);
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .main-image {
+            background-image: url(images/wolf.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 385px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navmenu">
+            <a href="index.html">Home</a>
+            <a href="secondarycontent.html">secondary content</a>
+        </div>
+        <div class="main-image">
+            <h1>Secondary Content page</h1>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">I Love the NBA</div>
+            <div class="grid-item"> My favorite team is the celtics</div>
+            <div class="grid-item">My favorite player is Jayson Tatum</div>
+            <div class="grid-item">My second favorite player is Jaylen Brown</div>
+            <div class="grid-item">I hate the 76ers</div>
+            <div class="grid-item">I also love cricket</div>
+        </div>
+    </div>
+</body>
+
+</html>
