@@ -37,11 +37,45 @@
                 nameParagraph.innerHTML = "Welcome to the batcave sir."
 
             } else {
-                nameParagraph.innerHTML = "Hello" + name;
+                nameParagraph.innerHTML = "Hello " + name;
             }
 
         }
     </script>
+    <h1>Toggling CSS with buttons</h1>
+    <div id="element1" style="display: block;">
+        <p>Youre seeing element 1</p>
+        <p>Click buttons to alter visibility</p>
+    </div>
+    <div id="element2" style="display: none;">
+        <p>Your seeing element 2</p>
+        <p>Click buttons to alter visibility</p>
+    </div>
+    <button id="changebutton1">Change Element 1</button>
+    <button id="changebutton2">Change Element 2</button>
+    <script>
+        const element1 = document.getElementById("element1");
+        const element2 = document.getElementById("element2");
+        const changebutton1 = document.getElementById("changebutton1");
+        const changebutton2 = document.getElementById("changebutton2");
+
+        changebutton1.addEventListener("click", () => {
+            if (element1.style.display === "block") {
+                element1.style.display = "none";
+            } else {
+                element1.style.display = "block";
+            }
+        });
+
+        changebutton2.addEventListener("click", () => {
+            if (element2.style.display === "block") {
+                element2.style.display = "none";
+            } else {
+                element2.style.display = "block";
+            }
+        });
+    </script>
+
 </body>
 
 </html>
