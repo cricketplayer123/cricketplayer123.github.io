@@ -30,3 +30,17 @@ function trivia() {
         triviaAnswer.innerHTML = fname + ", correct! you are a genius!";
     }
 }
+
+function onlylie() {
+    fname = document.getElementById("fname").value;
+    let lieoneSelected = document.getElementById("#1").checked;
+    let lietwoSelected = document.getElementById("#2").checked;
+    let liethreeSelected = document.getElementById("#3").checked;
+
+    if (lieoneSelected) {
+        lieanswer.innerHTML = "Yay you got it right!"
+    }
+    else {
+        lieanswer.innerHTML = fname + "you are not good at this game dude"
+    }
+}
