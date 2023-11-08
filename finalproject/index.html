@@ -4,77 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Asha Climbing</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        .bodycolor {
-            background-color: antiquewhite;
-        }
-    </style>
+    <title>Alpine Adventures</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
+    <header>
 
-<body class="bodycolor">
-    <div class="container-fluid"></div>
-    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" style="width: 350px;"></a>
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-                <li class="nav-item"><a class="nav-link" href="donate.html">ABOUT</a></li>
-                <li class="nav-item"><a class="nav-link" href="teamasha.html">TEAM ASHA</a></li>
-                <li class="nav-item"><a class="nav-link" href="juniorasha.html">JUNIOR ASHA</a></li>
-                <li class="nav-item"><a class="nav-link" href="events.html">EVENTS</a></li>
-                <li class="nav-item"><a class="nav-link" href="oursponsors.html">OUR SPONSORS</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!--bootstrap carousel-->
-    <div id="Demo" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/shasta.jpg" alt="Mt Shasta" class="d-block w-100">
-                <div class="bg-gradient">
-                    <div class="carousel-caption">
-                        <h3>Los Angeles</h3>
-                        <p>James Bond in the film Casino Royale's poker game.</p>
-                    </div>
-                </div>
+        <nav>
+            <div class="navigation-bar">
+                <ul>
+                    <div id="navigation-container">
+                        <img style="width: 200px;" src="images/logo.png" alt="logo">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="juniorasha.html">Junior Asha</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                </ul>
             </div>
-            <div class="carousel-item">
-                <img src="images/glacier.jpg" alt="Glacier Peak" class="d-block w-100">
-                <div class="bg-gradient">
-                    <div class="carousel-caption">
-                        <h3>Chicago</h3>
-                        <p>Main character looking at his opponent for a tell.</p>
-                    </div>
-                </div>
             </div>
-            <div class="carousel-item">
-                <img src="images/mt-rainier-paradise-1.jpg" alt="Rainier" class="d-block w-100">
-                <div class="bg-gradient">
-                    <div class="carousel-caption">
-                        <h3>Rounders Movie</h3>
-                        <p>Main character in a game of poker.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </nav>
+        <h1>Alpine Adventures</h1>
+    </header>
 
-    <div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </div>
+
+
+    <section class="featured-trips">
+        <h2>Featured Trips from Last Season</h2>
+        <div class="trip">
+            <img style="width: 500px;" src="images/glacier.jpg" alt="Trip 1">
+            <h3>Trip 1</h3>
+            <p>Explore the Swiss Alps</p>
+        </div>
+        <div class="trip">
+            <img style="width: 500px;" src="images/mt-rainier-paradise-1.jpg" alt="Trip 2">
+            <h3>Trip 2</h3>
+            <p>Hiking in the Rockies</p>
+        </div>
+        <div class="trip">
+            <img style="width: 500px;" src="images/shasta.jpg" alt="Trip 3">
+            <h3>Trip 3</h3>
+            <p>Skiing in Aspen</p>
+        </div>
+    </section>
+
+
+    <section class="pricing-commitments">
+        <div class="pricing-box">
+            <h2>Pricing & Commitments</h2>
+            <div class="trip-details">
+                <h3>Mt. Rainier 2024</h3>
+                <p>Dates for 2024: Jun 25 – Jun 29 (includes 2 day Mount Baker climb on Jun 9 – Jun 10)</p>
+                <p>Cost: $1650</p>
+                <p>Fundraising Commitment: $1500</p>
+            </div>
+
+            <div class="trip-details">
+                <h3>Mount Baker 2024</h3>
+                <p>Dates for 2024: Option #1: Jun 29 – Jul 1, Option #2: Jul 6 – Jul 8 (pick one)</p>
+                <p>Cost: $1000</p>
+                <p>Fundraising Commitment: $800</p>
+            </div>
+            <div class="trip-details">
+                <h3>Glacier Peak 2043</h3>
+                <p>Dates for 2024: July 27- July 30</p>
+                <p>Cost: $1100</p>
+                <p>Fundraising Commitment: $800</p>
+            </div>
+            <div class="trip-details">
+                <h3>Mount Adams 2024</h3>
+                <p>Dates for 2024: July 8 - July 9</p>
+                <p>Cost: $325</p>
+                <p>Fundraising Commitment: $600</p>
+            </div>
+            <div class="trip-details">
+                <h3>Mount Olympus 2024</h3>
+                <p>Dates for 2024: August 4 - August 7</p>
+                <p>Cost: $1250</p>
+                <p>Fundraising Commitment: $800</p>
+            </div>
+            <div class="trip-details">
+                <h3>WA 5 Volcanoes program (Mt Rainier, Mt Baker, Mt Adams, Mt St Helens and Glacier Peak over 2 years.)
+                    2024</h3>
+                <p>Dates for 2024: Various</p>
+                <p>Cost: $2825</p>
+                <p>Fundraising Commitment: $2500</p>
+            </div>
+
+            <div class="payment-info">
+                <h3>Payment and Registration</h3>
+                <p>Please reach out to seattle.climbing@ashanet.org with the climbs you are
+                    interested in so we can figure out the cost and fundraising commitment for you!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Asha Climbing Program</p>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #002366;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Featured trips section styles */
+.featured-trips {
+    text-align: center;
+    padding: 20px;
+}
+
+.trip {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #002366;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styling for the trip details and payment info */
+.trip-details {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.trip-details h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.trip-details p {
+    margin: 10px 0;
+}
+
+.payment-info {
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.payment-info h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.payment-info p {
+    margin: 10px 0;
+}
