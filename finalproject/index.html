@@ -19,7 +19,6 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="donate.html">Donate</a></li>
-                        <li><a href="juniorasha.html">Junior Asha</a></li>
                         <li><a href="sponsors.html">Sponsors</a></li>
                 </ul>
             </div>
@@ -99,6 +98,19 @@
             </div>
         </div>
     </section>
+    <section class="covid-policy-button">
+        <!-- The COVID policy button will be generated using JavaScript -->
+    </section>
+    <script>
+        // Create the COVID policy button dynamically
+        const covidButton = document.createElement("a");
+        covidButton.setAttribute("href", "policy.html");
+        covidButton.classList.add("covid-button");
+        covidButton.textContent = "COVID POLICY";
+
+        document.querySelector(".covid-policy-button").appendChild(covidButton);
+    </script>
+
 
     <footer>
         <p>&copy; Asha Climbing Program</p>
