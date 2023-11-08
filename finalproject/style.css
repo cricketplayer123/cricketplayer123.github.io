@@ -106,7 +106,8 @@ footer {
 
 .covid-button {
     display: inline-block;
-    background-color: #ff7f50; /* Light orange color */
+    background-color: #ff7f50;
+    /* Light orange color */
     color: #fff;
     font-size: 24px;
     padding: 10px 40px;
@@ -116,5 +117,6 @@ footer {
 }
 
 .covid-button:hover {
-    background-color: #ff6347; /* Darker orange color on hover */
+    background-color: #ff6347;
+    /* Darker orange color on hover */
 }
