@@ -43,7 +43,7 @@ nav a {
 
 
 footer {
-    background-color: #305cae;
+    background-color: #22427e;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -175,4 +175,22 @@ p {
     padding: 25px;
     border-radius: 15px;
     background-color: #f7f7f7;
+}
+
+.button1 {
+
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+.button1:hover {
+    background-color: #ff6347;
+
 }
