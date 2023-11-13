@@ -4,21 +4,17 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
 
-/* Header styles */
+
+
 header {
-    background-color: #002366;
+    background-color: #305cae;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
-nav ul {
-    list-style: none;
-}
+
 
 nav li {
     display: inline;
@@ -30,19 +26,11 @@ nav a {
     text-decoration: none;
 }
 
-/* Hero section styles */
-.hero {
-    position: relative;
-    text-align: center;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-}
 
 
-/* Featured trips section styles */
+
+
+
 .featured-trips {
     text-align: center;
     padding: 20px;
@@ -53,15 +41,15 @@ nav a {
     margin: 20px;
 }
 
-/* Footer styles */
+
 footer {
-    background-color: #002366;
+    background-color: #305cae;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
-/* Styling for the trip details and payment info */
+
 .trip-details {
     margin-bottom: 20px;
     border: 1px solid #e0e0e0;
@@ -104,7 +92,7 @@ footer {
     margin: 10px 0;
 }
 
-/* Styling for the COVID policy button */
+
 .covid-policy-button {
     background-color: lightcoral;
     text-align: center;
@@ -114,7 +102,6 @@ footer {
 .covid-button {
     display: inline-block;
     background-color: #ff7f50;
-    /* Light orange color */
     color: #fff;
     font-size: 24px;
     padding: 10px 40px;
@@ -130,7 +117,7 @@ footer {
 
 .covid-button:hover {
     background-color: #ff6347;
-    /* Darker orange color on hover */
+
 }
 
 .about {
@@ -173,7 +160,7 @@ p {
 .image-container {
     display: flex;
     justify-content: center;
-    
+
 
 
 }
