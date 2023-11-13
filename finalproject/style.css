@@ -173,8 +173,9 @@ p {
 .image-container {
     display: flex;
     justify-content: center;
+    
 
-    /* Center horizontally */
+
 }
 
 
