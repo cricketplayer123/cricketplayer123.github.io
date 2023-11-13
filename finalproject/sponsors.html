@@ -5,7 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sponsors</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .rounded-box {
+            border-radius: 15px;
+            background-color: rgba(216, 207, 207, 0.221);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -23,10 +50,44 @@
                 </ul>
             </div>
             </div>
-            <h1>Alpine Adventures</h1>
+            <h1>Asha Climbing Program</h1>
         </nav>
 
     </header>
+
+    <div class="container rounded-box">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Sponsors</h1>
+                <p>We are proud to present Bluewave as a sponsor for Team Asha. <br> Bluewave is a creative consulting
+                    agency that gets your important, time-sensitive work done. Nayamode
+                    delivers. With a range of services including but not limited to design, content, and digital
+                    marketing. They know what it takes to move the marketing needle. If you're business is looking for a
+                    strategic partner that delivers a high quality product in a small time frame, get in touch today.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img style="width: 600px;" src="images/nayamode.png" alt="Company Logo" class="logo">
+            </div>
+
+            <section class="nayamodefull-button">
+                <!-- The COVID policy button will be generated using JavaScript -->
+            </section>
+            <script>
+                // Create the COVID policy button dynamically
+                const nayamodeButton = document.createElement("a");
+                nayamodeButton.setAttribute("href", "policy.html");
+                nayamodeButton.classList.add("covid-button");
+                nayamodeButton.textContent = "Contact Us";
+
+                document.querySelector(".nayamodefull-button").appendChild(nayamodeButton);
+            </script>
+
+
+        </div>
+    </div>
 
 </body>
 
