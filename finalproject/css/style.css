@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 header {
     background-color: #305cae;
     color: #fff;
@@ -25,11 +22,6 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
-
-
-
-
-
 
 .featured-trips {
     text-align: center;
