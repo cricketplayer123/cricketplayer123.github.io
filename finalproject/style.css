@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #305cae;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.featured-trips {
+    text-align: center;
+    padding: 20px;
+}
+
+.trip {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+footer {
+    background-color: #22427e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.trip-details {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.infoboxes {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+}
+
+.trip-details h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.trip-details p {
+    margin: 10px 0;
+}
+
+.payment-info {
+    margin-top: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.payment-info h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.payment-info p {
+    margin: 10px 0;
+}
+
+
+.covid-policy-button {
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.covid-button {
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.nayamodefull-button {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.covid-button:hover {
+    background-color: #ff6347;
+
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.info-box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.profile-image {
+    border-radius: 4rem 4rem 4rem 4rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.infoboxes-policy {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    border: 1px solid #e0e0e0;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+}
+
+.button1 {
+
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+}
+
+.button1:hover {
+    background-color: #ff6347;
+
+}
